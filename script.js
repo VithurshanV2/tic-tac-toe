@@ -14,3 +14,17 @@ function Gameboard() {
 
     return { getBoard };
 }
+
+function Cell() {
+    let value = 0;
+
+    const getValue = () => value;
+
+    const setValue = (newValue) => {
+        if (value === "") {
+            value.newValue;
+        }
+    };
+
+    return { getValue, setValue };
+}
